@@ -6,6 +6,8 @@
 }
 .container{
     overflow: hidden;
+    padding: 0 200px;
+
 }
 
 .middle{
@@ -14,15 +16,15 @@
     background-color: aquamarine;
     float: left;
 }
-.text{
-    padding: 0 200px;
-}
 .left{
     width: 200px;
     height: 200px;
     background-color: #2dacfd;
     float: left;
     margin-left: -100%;
+    position: relative;
+    left:-200px;
+
 }
 .right{
     width: 200px;
@@ -30,6 +32,8 @@
     background-color: #2dacfd;
     float: left;
     margin-left: -200px;
+    position: relative;
+    right: -200px;
 }
 .footer{
     width: 100%;
